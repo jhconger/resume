@@ -1,16 +1,49 @@
 body{    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-.about-me{
+.heading{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    background-color: darkslategrey;
+    align-items:center;
+    border-style: hidden;
 }
-.about-me >title{
-    display: flex;
+h1{
+    font-family: "JetBrains Mono" ;
+    color: white;
+    margin:0;
 }
-.about-me-body{
+h2{
+    color: #718c9d;
+    margin:0;
+}
+.contact-info{
     box-sizing: border-box;
     display: flex;
+    flex-direction: row;
+    background-color: darkslategrey;
+    color: white;
+    justify-content: center ;
+    border-style: hidden;
+    border-width: 2px;
+}
+.contact-list {
+    display:flex;
+    list-style: none;
+    text-decoration: white;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-grow: 1;
+    padding-right: 110px;
+
+}
+.white a{
+    text-decoration: none;
+    display: flex;
+    color:white;
+}
+.about-me{
+    display: flex;
+    box-sizing: border-box;
     text-align-all: center;
 }
