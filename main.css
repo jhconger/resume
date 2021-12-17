@@ -14,7 +14,7 @@ h1{
     margin:0;
 }
 h2{
-    color: #718c9d;
+    color: #22ad7c;
     margin:0;
 }
 .contact-info{
@@ -24,26 +24,33 @@ h2{
     background-color: darkslategrey;
     color: white;
     justify-content: center ;
+    align-content: center;
     border-style: hidden;
     border-width: 2px;
 }
 .contact-list {
     display:flex;
     list-style: none;
-    text-decoration: white;
-    justify-content: space-around;
-    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     flex-grow: 1;
-    padding-right: 110px;
+    margin: 0;
+    padding: 0;
 
 }
 .white a{
     text-decoration: none;
-    display: flex;
-    color:white;
+    /*display: flex;*/
+    align-content: center;
 }
 .about-me{
     display: flex;
     box-sizing: border-box;
     text-align-all: center;
+}
+.left{
+    width-calc(50%-1em)
+}
+.right{
+    width-calc(50%-1em)
 }
