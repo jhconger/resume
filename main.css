@@ -1,56 +1,131 @@
-body{    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
-.heading{
-    display: flex;
-    flex-direction: column;
-    background-color: darkslategrey;
-    align-items:center;
-    border-style: hidden;
-}
-h1{
-    font-family: "JetBrains Mono" ;
-    color: white;
-    margin:0;
-}
-h2{
-    color: #22ad7c;
-    margin:0;
-}
-.contact-info{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    background-color: darkslategrey;
-    color: white;
-    justify-content: center ;
-    align-content: center;
-    border-style: hidden;
-    border-width: 2px;
-}
-.contact-list {
-    display:flex;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
+/*body{    text-decoration: none;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
+/*.heading{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: darkslategrey;*/
+/*    align-items:center;*/
+/*    border-style: hidden;*/
+/*}*/
+/*h1{*/
+/*    font-family: "JetBrains Mono" ;*/
+/*    color: white;*/
+/*    margin:0;*/
+/*}*/
+/*h2{*/
+/*    color: #22ad7c;*/
+/*    margin:0;*/
+/*}*/
+/*.contact-info{*/
+/*    box-sizing: border-box;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    background-color: darkslategrey;*/
+/*    color: white;*/
+/*    justify-content: center ;*/
+/*    align-content: center;*/
+/*    border-style: hidden;*/
+/*    border-width: 2px;*/
+/*}*/
+/*.contact-list {*/
+/*    display:flex;*/
+/*    list-style: none;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*    flex-grow: 1;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
 
-}
-.white a{
-    text-decoration: none;
-    /*display: flex;*/
-    align-content: center;
-}
-.about-me{
+/*}*/
+/*.white a{*/
+/*    text-decoration: none;*/
+/*    !*display: flex;*!*/
+/*    align-content: center;*/
+/*}*/
+/*.about-me{*/
+/*    display: flex;*/
+/*    box-sizing: border-box;*/
+/*    text-align-all: center;*/
+/*}*/
+/*.left{*/
+/*    width-calc(50%-1em)*/
+/*}*/
+/*.right{*/
+/*    width-calc(50%-1em)*/
+/*}*/
+/*Container for entire page*/
+#main{
+    width: 100%
     display: flex;
-    box-sizing: border-box;
-    text-align-all: center;
 }
-.left{
-    width-calc(50%-1em)
+
+/*Contact Info (Might have to add flex property here)*/
+#header{
+    border: 2px solid red;
+    text-align: center;
 }
-.right{
-    width-calc(50%-1em)
+
+#summary{
+    border: 2px solid purple;
+    text-align: center;
+}
+/*Tech Skills Section*/
+/*I needed to add flex property to give children containers the flex ability*/
+.overview{
+    border: 2px solid orange;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Overview for experience*/
+.overview-exp{
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    border: 2px solid brown;
+}
+
+
+/*title for skills section*/
+.title{
+    border: 2px solid blue;
+    width: 100%;
+    text-align: center;
+}
+
+/*title for experience section*/
+.overview-exp .title{
+    text-align: left;
+    width: 100%;
+}
+
+/*container for jobs qualified for*/
+.job-wanted{
+    border: 2px solid green;
+}
+
+/*experience type container*/
+.type{
+    border: 2px solid gold;
+}
+
+/*year experience occured container*/
+.year{
+    border: 2px solid teal;
+}
+
+/*container for type and year*/
+/*needed additional layer to make the containers not wrap*/
+.type-year{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 2px solid brown;
+}
+
+#gpa{
+    border: 2px solid maroon;
 }
