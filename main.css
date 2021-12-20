@@ -7,7 +7,21 @@ body{    text-decoration: none;
 #header{
     border: 2px solid #1153b6;
     text-align: center;
-    text-decoration-thickness: 10em;
+    background-color: cadetblue;
+}
+h1{
+    color: darkslategrey;
+    margin: 0;
+}
+h2{
+    color: darkslategrey;
+    margin: 0;
+}
+h3{
+    display: flex;
+    color: darkslategrey;
+    align-items: center;
+    padding-right: 5px;
 }
 .contact-info{
     display: flex;
@@ -15,10 +29,17 @@ body{    text-decoration: none;
     align-content: center;
     text-align: center;
 }
-hr{
+.hr-header{
     height: 3px ;
     width: 83%;
     background-color: #1153b6;
+}
+.hr-summary{
+    height: 140px;
+    width: 1px;
+    border: none;
+    margin-right: 3px;
+    background-color: purple;
 }
 .phone{
     display: flex;
@@ -30,7 +51,9 @@ a.mail{
 #summary{
     display: flex;
     border: 2px solid purple;
-    text-align: center;
+    align-content: center;
+    background-color: #718c9d;
+    justify-items: center;
 }
 .overview{
     border: 2px solid orange;
