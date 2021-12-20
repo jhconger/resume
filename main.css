@@ -1,19 +1,23 @@
 body{
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110%;
 }
 #main{
     width: 100%;
 }
 #header{
     border: 2px solid cadetblue;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     text-align: center;
-    background-color: cadetblue;
+    border-radius: 5px;
+
 }
 h1{
-    color: darkslategrey;
     margin: 0;
     text-align-last: center;
 }
@@ -36,29 +40,13 @@ h3{
 .phone{
     display: flex;
 }
-/*a.linked{*/
-/*    padding-right: 50px;*/
-/*}*/
-/*.git{*/
-/*    padding-right: 120px;*/
-/*}*/
-/*a.mail{*/
-/*    text-decoration: none;*/
-/*    height: 1.75em;*/
-/*}*/
 #summary{
     display: flex;
     flex-direction: column;
-    border: 2px solid lightslategray;
     align-items: center;
-    background-color: #718c9d;
     justify-items: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
     font-size: smaller;
     white-space: pre-line;
-    margin:   0px;
 }
 .flex-container {
     display: flex;
