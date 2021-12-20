@@ -1,17 +1,21 @@
-body{    text-decoration: none;
+body{
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
 #main{
     width: 100%;
 }
 #header{
-    border: 2px solid #1153b6;
+    border: 2px solid cadetblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     text-align: center;
     background-color: cadetblue;
 }
 h1{
     color: darkslategrey;
     margin: 0;
+    text-align-last: center;
 }
 h2{
     color: darkslategrey;
@@ -21,94 +25,103 @@ h3{
     display: flex;
     color: darkslategrey;
     align-items: center;
-    padding-right: 5px;
+    margin: 0;
 }
 .contact-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
-    text-align: center;
-}
-.hr-header{
-    height: 3px ;
-    width: 83%;
-    background-color: #1153b6;
-}
-.hr-summary{
-    height: 140px;
-    width: 1px;
-    border: none;
-    margin-right: 3px;
-    background-color: purple;
+    text-align-last: center;
 }
 .phone{
     display: flex;
 }
-a.mail{
-    text-decoration: none;
-    height: 1.75em;
-}
+/*a.linked{*/
+/*    padding-right: 50px;*/
+/*}*/
+/*.git{*/
+/*    padding-right: 120px;*/
+/*}*/
+/*a.mail{*/
+/*    text-decoration: none;*/
+/*    height: 1.75em;*/
+/*}*/
 #summary{
     display: flex;
-    border: 2px solid purple;
-    align-content: center;
+    flex-direction: column;
+    border: 2px solid lightslategray;
+    align-items: center;
     background-color: #718c9d;
     justify-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+    white-space: pre-line;
+    margin:   0px;
 }
-.overview{
-    border: 2px solid orange;
-    justify-content: space-evenly;
+.flex-container {
     display: flex;
-    flex-wrap: wrap;
-}
-
-/*Overview for experience*/
-.overview-exp{
-    display: flex;
-    flex-wrap: wrap;
-    /*justify-content: space-between;*/
-    border: 2px solid brown;
+    flex-direction: row;
 }
 
 
-/*title for skills section*/
-.title{
-    border: 2px solid blue;
+.flex-left {
     width: 100%;
-    text-align: center;
+    height: 50vh;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
 }
 
-/*title for experience section*/
-.overview-exp .title{
-    text-align: left;
+.flex-right {
     width: 100%;
-}
-
-/*container for jobs qualified for*/
-.job-wanted{
+    height: 50vh;
+    margin: 5px;
+    padding: 5px;
     border: 2px solid green;
+    border-radius: 5px;
 }
 
-/*experience type container*/
-.type{
-    border: 2px solid gold;
-}
 
-/*year experience occured container*/
-.year{
-    border: 2px solid teal;
-}
 
-/*container for type and year*/
-/*needed additional layer to make the containers not wrap*/
-.type-year{
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    border: 2px solid brown;
-}
+/*!*title for experience section*!*/
+/*.overview-exp .title{*/
+/*    text-align: left;*/
+/*    width: 100%;*/
+/*}*/
 
-#gpa{
-    border: 2px solid maroon;
-}
+/*!*container for jobs qualified for*!*/
+/*.job-wanted{*/
+/*    border: 2px solid green;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!*experience type container*!*/
+/*.type{*/
+/*    border: 2px solid gold;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!*year experience occured container*!*/
+/*.year{*/
+/*    border: 2px solid teal;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!*container for type and year*!*/
+/*!*needed additional layer to make the containers not wrap*!*/
+/*.type-year{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*    justify-content: space-between;*/
+/*    border: 2px solid brown;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*#gpa{*/
+/*    border: 2px solid maroon;*/
+/*    border-radius: 5px;*/
+/*}*/
