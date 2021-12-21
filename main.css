@@ -3,7 +3,7 @@ body{
     height: 100%;
     width: 100%;
     font-family: 'Bebas Neue', cursive;
-    background-image: url(), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+    background-image: linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 110%;
@@ -40,7 +40,7 @@ h3{
 .phone{
     display: flex;
 }
-#summary{
+article{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@ h3{
     height: 50vh;
     margin: 5px;
     padding: 5px;
-    border: 2px solid green;
+    border: 2px solid red;
     border-radius: 5px;
 }
 
