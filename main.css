@@ -1,58 +1,73 @@
-body{
+body {
     font-family: 'Bebas Neue', cursive;
     background-image: linear-gradient(rgba(172, 32, 32, 0), rgba(100, 149, 237, 0.99));
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -5px 5px 0px inset, rgba(0, 0, 0, 0.15) 0px -5px 5px 0px inset, rgba(0, 0, 0, 0.1) 0px -5px 5px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 5px 5px;
 }
-#main{
+
+#main {
     width: 100%;
-    display:flex;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    display: flex;
 }
-#header{
+
+#header {
+    grid-template-columns: 200px 75px 75px 75px;
     border: 2px solid cadetblue;
     text-align: center;
+    font-size:25px;
     margin: 5px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -5px 5px 0px inset, rgba(0, 0, 0, 0.15) 0px -5px 5px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 5px 5px;
 }
-h1{
+
+h1 {
     margin: 0;
     text-align-last: center;
 }
-h2{
+
+h2 {
+    display: flex;
     color: darkslategrey;
     margin: 0;
+    justify-content: center;
+    align-content: center;
 }
-h3{
+
+h3 {
     display: flex;
     color: darkslategrey;
     align-items: center;
     margin: 5px;
+    font-size: 30px;
 }
+
 .contact-info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
     text-align-last: center;
 }
-.phone{
+
+.item1 {
     display: flex;
+    text-wrap: none;
+    width: 200px;
+    align-items: center;
 }
-article{
-    display: flex;
+.item3{
+    padding-right: 155px;
+}
+article {
     flex-direction: column;
     align-items: center;
-    justify-items: center;
-    font-size: smaller;
-    white-space: pre-line;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    font-family: sans-serif;
 }
+
 .row {
     display: flex;
     width: 100%;
-
     border-radius: 5px;
 }
+
 .column {
     flex: 100%;
     padding: 10px;
@@ -66,6 +81,7 @@ article{
     margin: 5px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
 .column2 {
     flex: 100%;
     padding: 10px;
@@ -79,6 +95,13 @@ article{
     margin: 5px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.summary{
-    font-size: xx-small;
+
+.summary {
+    font-size: 25px;
+    ;
+}
+
+ul{
+    list-style: none;
+
 }
