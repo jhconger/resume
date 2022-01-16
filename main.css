@@ -13,12 +13,13 @@ body {
     grid-template-columns: 200px 75px 75px 75px;
     border: 2px solid rgba(17, 182, 75, 0.72);
     text-align: center;
-    font-size:25px;
+    font-size: 25px;
     margin: 5px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
     background-color: #3E5E04;
     background-image: linear-gradient(314deg, #527d05 0%, rgba(114, 114, 66, 0.7) 74%);
+}
 
 h1 {
     margin: 0;
