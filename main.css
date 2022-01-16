@@ -11,14 +11,14 @@ body {
 
 #header {
     grid-template-columns: 200px 75px 75px 75px;
-    border: 2px solid cadetblue;
+    border: 2px solid rgba(17, 182, 75, 0.72);
     text-align: center;
     font-size:25px;
     margin: 5px;
     border-radius: 5px;
-    background-image: linear-gradient(rgba(172, 32, 32, 0), rgb(17, 83, 182));
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-}
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
+    background-color: #3E5E04;
+    background-image: linear-gradient(314deg, #527d05 0%, rgba(114, 114, 66, 0.7) 74%);
 
 h1 {
     margin: 0;
@@ -74,14 +74,15 @@ article {
     padding: 10px;
     height: 100em;
     border-radius: 5px;
-    border: 2px solid cadetblue;
+    border: 2px solid rgba(17, 182, 75, 0.72);
     font-family: 'Exo 2', sans-serif;
     text-align: left;
     flex-wrap: wrap;
     content: "";
     margin: 5px;
-    background-image: linear-gradient(rgba(172, 32, 32, 0), rgba(100, 149, 237, 0.99));
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
+    background-color: #3E5E04;
+    background-image: linear-gradient(314deg, #527d05 0%, rgba(114, 114, 66, 0.7) 74%);
 }
 
 .column2 {
@@ -89,14 +90,15 @@ article {
     padding: 10px;
     height: 100em;
     border-radius: 5px;
-    border: 2px solid cadetblue;
+    border: 2px solid rgba(17, 182, 75, 0.72);
     font-family: 'Exo 2', sans-serif;
     text-align: left;
     flex-wrap: wrap;
     content: "";
     margin: 5px;
-    background-image: linear-gradient(rgba(172, 32, 32, 0), rgba(100, 149, 237, 0.99));
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
+    background-color: #3E5E04;
+    background-image: linear-gradient(314deg, #527d05 0%, rgba(114, 114, 66, 0.7) 74%);
 }
 
 .summary {
