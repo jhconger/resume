@@ -1,7 +1,13 @@
 body {
     font-family: 'Bebas Neue', cursive;
-    background-image: linear-gradient(rgba(172, 32, 32, 0), rgb(17, 83, 182));
     box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
+    animation: animateBg 14s linear infinite;
+    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
+    background-size: 400% 100%;
+}
+@keyframes animateBg {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
 }
 
 #main {
@@ -11,14 +17,19 @@ body {
 
 #header {
     grid-template-columns: 200px 75px 75px 75px;
-    border: 2px solid rgba(17, 182, 75, 0.72);
+    border: 2px solid rgba(64, 17, 182, 0.72);
     text-align: center;
     font-size: 25px;
     margin: 5px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-    background-color: #3E5E04;
-    background-image: linear-gradient(314deg, #527d05 0%, rgba(114, 114, 66, 0.7) 74%);
+    animation: animateBg 14s linear infinite;
+    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
+    background-size: 400% 100%;
+}
+@keyframes animateBg {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
 }
 
 h1 {
@@ -82,8 +93,13 @@ article {
     content: "";
     margin: 5px;
     box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-    background-color: #3E5E04;
-    background-image: linear-gradient(314deg, #527d05 0%, rgba(114, 114, 66, 0.7) 74%);
+    animation: animateBg 14s linear infinite;
+    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
+    background-size: 400% 100%;
+}
+@keyframes animateBg {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
 }
 
 .column2 {
@@ -98,10 +114,14 @@ article {
     content: "";
     margin: 5px;
     box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-    background-color: #3E5E04;
-    background-image: linear-gradient(314deg, #527d05 0%, rgba(114, 114, 66, 0.7) 74%);
+    animation: animateBg 14s linear infinite;
+    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
+    background-size: 400% 100%;
 }
-
+@keyframes animateBg {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
 .summary {
     font-size: 25px;
     ;
