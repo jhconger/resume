@@ -1,8 +1,8 @@
 body {
     font-family: 'Bebas Neue', cursive;
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-    animation: animateBg 14s linear infinite;
-    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
+    box-shadow: rgba(0, 0, 0, 0.17) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.15) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.1) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.06) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px;
+    animation: animateBg 420s linear infinite;
+    background-image: linear-gradient(90deg, rgba(100, 149, 237, 0.61), rgba(56, 131, 99, 0.32), rgba(17, 182, 75, 0.64), rgba(0, 128, 255, 0.16), #388363);
     background-size: 400% 100%;
 }
 @keyframes animateBg {
@@ -17,19 +17,13 @@ body {
 
 #header {
     grid-template-columns: 200px 75px 75px 75px;
-    border: 2px solid rgba(64, 17, 182, 0.72);
+    border: 2px solid rgba(64, 17, 182, 0.2);
     text-align: center;
     font-size: 25px;
     margin: 5px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-    animation: animateBg 14s linear infinite;
-    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
-    background-size: 400% 100%;
-}
-@keyframes animateBg {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
+    /*background-image: linear-gradient(90deg, rgba(100, 149, 237, 0.1), rgba(56, 131, 99, 0.18), rgba(214, 252, 227, 0.43), rgba(0, 128, 255, 0.16), #388363);*/
+    box-shadow: rgba(0, 0, 0, 0.17) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.15) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.1) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.06) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px;
 }
 
 h1 {
@@ -85,43 +79,30 @@ article {
     flex: 100%;
     padding: 10px;
     height: 100em;
-    border-radius: 5px;
-    border: 2px solid rgba(17, 182, 75, 0.72);
+    border-radius: 15px;
+    border: 2px solid rgba(17, 182, 75, 0.24);
     font-family: 'Exo 2', sans-serif;
     text-align: left;
     flex-wrap: wrap;
     content: "";
     margin: 5px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-    animation: animateBg 14s linear infinite;
-    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
-    background-size: 400% 100%;
-}
-@keyframes animateBg {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
+    box-shadow: rgba(0, 0, 0, 0.17) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.15) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.1) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px;
 }
 
 .column2 {
     flex: 100%;
     padding: 10px;
     height: 100em;
-    border-radius: 5px;
-    border: 2px solid rgba(17, 182, 75, 0.72);
+    border-radius: 15px;
+    border: 2px solid rgba(17, 182, 75, 0.24);
     font-family: 'Exo 2', sans-serif;
     text-align: left;
     flex-wrap: wrap;
     content: "";
     margin: 5px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.15) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.1) 0 -5px 5px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px, rgba(0, 0, 0, 0.09) 0 5px 5px;
-    animation: animateBg 14s linear infinite;
-    background-image: linear-gradient(90deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
-    background-size: 400% 100%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.15) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.1) 0 15px 15px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px, rgba(0, 0, 0, 0.09) 0 15px 15px;
 }
-@keyframes animateBg {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
-}
+
 .summary {
     font-size: 25px;
     ;
