@@ -92,7 +92,7 @@ article {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-left: 2px solid rgb(8, 179, 210);
-    border-right: 2px solid rgb(8, 179, 210);
+    /*border-right: 2px solid rgb(8, 179, 210);*/
     border-bottom: 2px solid rgb(8, 179, 210);
     font-family: 'Exo 2', sans-serif;
     text-align: left;
@@ -108,7 +108,7 @@ article {
     height: 100em;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    border-left: 2px solid rgb(8, 179, 210);
+    /*border-left: 2px solid rgb(8, 179, 210);*/
     border-right: 2px solid rgb(8, 179, 210);
     border-bottom: 2px solid rgb(8, 179, 210);
     font-family: 'Exo 2', sans-serif;
